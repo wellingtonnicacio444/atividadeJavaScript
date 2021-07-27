@@ -15,3 +15,21 @@ header:hover{
     color: blue;
     transition: 0.3s;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.questao1 ol li{
+    font-size: 20px;
+    color: rgb(16, 0, 245);
+}
+.questao1 form{
+    margin-left: 20px;
+}
+.questao1 form input{
+    border-radius: 4px;
+    color: rgb(4, 0, 255);
+}
