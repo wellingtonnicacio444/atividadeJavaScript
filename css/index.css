@@ -43,7 +43,7 @@ main{
     color: black;
 }
 #rest:hover{
-    background-color: red;   
+    color: red;
     transition: 0.3s;
     border-radius: 4px;
 }
@@ -51,7 +51,24 @@ main{
     color: black;
 }
 #btn1:hover{
-    background-color: rgb(2, 255, 57);
+    color: rgb(0, 255, 0);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+#rest2{
+    margin-left: 90px;
+    color: black;
+}
+#rest2:hover{
+    color: red;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+#btn2{
+    color: black;
+}
+#btn2:hover{
+    color: rgb(0, 255, 0);
     transition: 0.3s;
     border-radius: 4px;
 }

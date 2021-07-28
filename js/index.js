@@ -20,3 +20,18 @@ function maior_menor() {
         alert("Maior: " + maior + "\n" + "Menor: " + menor);
     }
 }
+function vogal() {
+    var caracter = String(document.getElementById("caractere").value);
+    if (caracter === "") {
+        document.getElementById("caractere").focus();
+    } else if (!(isNaN(parseInt(caracter)))) {
+        document.getElementById("caractere").focus();
+    } else {
+        caracter = caracter.toUpperCase();
+        if (caracter === "A" || caracter === "E" || caracter === "I" || caracter === "O" || caracter === "U") {
+            alert(1);
+        } else {
+            alert(0);
+        }
+    }
+}

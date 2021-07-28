@@ -50,14 +50,22 @@
                 <br>
                 <input type="number" id="num5" name="numero5" placeholder="5">
                 <br><br>
-                <input type="button" id="btn1" onclick="maior_menor()" value="Enviar">
-                <input type="reset" id="rest">
+                <input type="button" id="btn1" onclick="maior_menor()" value="Enviar" class="btn">
+                <input type="reset" id="rest" class="btnrest">
             </form>
             <hr><br>
             <ol start="2">
                 <li>Criar uma função VOGAL(c) que receba um caractere como parâmetro e retorne 1
                     (um) caso seja uma vogal e zero caso não seja.</li>
             </ol>
+            <form>
+                <label for="caracter">Digite o caractere: </label>
+                <br>
+                <input type="text" id="caractere" name="caractere" placeholder="a ou A" maxlength="1">
+                <br><br>
+                <input type="button" id="btn2" onclick="vogal()" value="Enviar">
+                <input type="reset" id="rest2">
+            </form>
         </div>
     </main>
 </body>
