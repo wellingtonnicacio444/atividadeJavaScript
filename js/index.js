@@ -55,3 +55,19 @@ function limites() {
         alert("Soma dos números pares: " + soma);
     }
 }
+function ordem() {
+    let num1 = parseInt(document.getElementById("n1").value);
+    let num2 = parseInt(document.getElementById("n2").value);
+    let num3 = parseInt(document.getElementById("n3").value);
+    if (isNaN(num1)) {
+        document.getElementById("n1").focus();
+    } else if (isNaN(num2)) {
+        document.getElementById("n2").focus();
+    } else if (isNaN(num3)) {
+        document.getElementById("n3").focus();
+    } else {
+        let ordena = [num1, num2, num3];
+        ordena.sort((a, b) => a - b);
+        alert("Ordem crescente: " + ordena);
+    }
+}
