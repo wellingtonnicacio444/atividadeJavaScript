@@ -71,3 +71,21 @@ function ordem() {
         alert("Ordem crescente: " + ordena);
     }
 }
+function positivo_negativo() {
+    let nump = parseInt(document.getElementById("post").value);
+    if (isNaN(nump)) {
+        document.getElementById("post").focus();
+    } else {
+        let positivo = Boolean(nump >= 0);
+        alert(positivo);
+    }
+}
+function par_impar() {
+    let numpar = parseInt(document.getElementById("npar").value);
+    if (isNaN(numpar)) {
+        document.getElementById("npar").focus();
+    } else {
+        let par = Boolean(numpar % 2 == 0);
+        alert(par);
+    }
+}

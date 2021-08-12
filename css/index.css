@@ -106,3 +106,37 @@ main{
     transition: 0.3s;
     border-radius: 4px;
 }
+#rest5{
+    margin-left: 90px;
+    color: black;
+}
+#rest5:hover{
+    color: red;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+#btn5{
+    color: black;
+}
+#btn5:hover{
+    color: rgb(0, 255, 0);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+#rest6{
+    margin-left: 90px;
+    color: black;
+}
+#rest6:hover{
+    color: red;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+#btn6{
+    color: black;
+}
+#btn6:hover{
+    color: rgb(0, 255, 0);
+    transition: 0.3s;
+    border-radius: 4px;
+}
