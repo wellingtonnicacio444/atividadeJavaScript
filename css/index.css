@@ -72,3 +72,20 @@ main{
     transition: 0.3s;
     border-radius: 4px;
 }
+#rest3{
+    margin-left: 90px;
+    color: black;
+}
+#rest3:hover{
+    color: red;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+#btn3{
+    color: black;
+}
+#btn3:hover{
+    color: rgb(0, 255, 0);
+    transition: 0.3s;
+    border-radius: 4px;
+}
