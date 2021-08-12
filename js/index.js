@@ -35,3 +35,23 @@ function vogal() {
         }
     }
 }
+function limites() {
+    let limInf = parseInt(document.getElementById("limiteinf").value);
+    let limSup = parseInt(document.getElementById("limitesup").value);
+    if (isNaN(limInf)) {
+        document.getElementById("limiteinf").focus();
+    } else if (isNaN(limSup)) {
+        document.getElementById("limitesup").focus();
+    } else {
+        let pares = [];
+        let soma = 0;
+        for (limInf; limInf <= limSup; limInf++) {
+            if (limInf % 2 == 0) {
+                pares.push(limInf);
+                soma = soma + limInf;
+            }
+        }
+        alert("Numeros pares: " + pares);
+        alert("Soma dos números pares: " + soma);
+    }
+}
